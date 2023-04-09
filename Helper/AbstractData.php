@@ -342,7 +342,7 @@ class AbstractData extends AbstractHelper
      */
     protected function getSerializeClass()
     {
-        return $this->objectManager->get('Zend_Serializer_Adapter_PhpSerialize');
+        return $this->objectManager->get('Laminas_Serializer_Adapter_PhpSerialize');
     }
 
     /**
